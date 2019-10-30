@@ -38,9 +38,9 @@ Seeking opportunities to: Create growth and scale, install and optimize Agile, m
 ### Experience 
 
 Infinia ML : *VP of Engineering* - __2017-present__
-- Created a new engineering team and grew to 8 members (in addition to adding a CISO)
-- Led development of Software Guidelines and forged relationships between Data Science and Engineering teams along with training programs involving Engineers as both teacher and student
-- Vastly improved quality of software deliverables to clients on 20 successful projects include reproducible builds, automated testing, APIs, logging, and metrics
+- Created a new engineering team and grew to 8 members (in addition to adding a CISO).
+- Led development of Software Guidelines and forged relationships between Data Science and Engineering teams along with training programs involving Engineers as both teacher and student.
+- Vastly improved quality of software deliverables to clients on 20 successful projects include reproducible builds, automated testing, APIs, logging, and metrics.
 - Led development of software libraries to enable each phase of our projects with clients including Data Analysis, Development, and Deployment of Machine Learning Models
 
 3 Birds Marketing : *CTO* - __2015-2016__
@@ -55,7 +55,7 @@ ReverbNation : *VP, Engineering* - __2014-2015__
 
 ReverbNation : *Sr. Development Director/Data Scientist* - __2012-2014__
 - Created and grew Data Science team
-- Created attribution processes to identify sources of leads and their likelihood of purchase
+- Created attribution processes to identify sources of customer leads and their likelihood of purchase
 - Partnered with architect for integration of Spark, Hadoop, and BigQuery into data pipelines
 - Created and deployed data warehouse and many curated data sources used by Data Science team, Developers, and Business Owners from products including Signups, Subscriptions, and Ad Serving
 - Integrated Data Science into planning and forecast process
@@ -63,7 +63,7 @@ ReverbNation : *Sr. Development Director/Data Scientist* - __2012-2014__
 - Created split test framework and process for conducting and managing experiments
 - Extended billing and subscription management system with new payment processors, better revenue recognition, and analytics
 - Team-appointed UTF-8 wrangler
-- Worked with Ruby, Rails, Redis, Memcache, MySQL, MogileFS, Python, Pandas, Pig, NumPy, scikit-learn , and lots of great people. See less
+- Worked with Ruby, Rails, Redis, Memcache, MySQL, MogileFS, Python, Pandas, Pig, NumPy, scikit-learn, and lots of great people. 
 
 iContact : *Chief Architect* - __2009-2012__
 - Grew from 100 customers when I started to more than 70,000 customers, and acquired by Vocus for $169MM
