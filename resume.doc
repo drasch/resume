@@ -1,0 +1,173 @@
+.SH 1
+David Rasch
+.pdfhref O 1 "David Rasch"
+.pdfhref M "david-rasch"
+.SH 2
+Problem Solver in Teams + Technology + Business
+.pdfhref O 2 "Problem Solver in Teams + Technology + Business"
+.pdfhref M "problem-solver-in-teams-technology-business"
+.HLINE
+.SH 3
+Profile
+.pdfhref O 3 "Profile"
+.pdfhref M "profile"
+.LP
+Seeking opportunities to: Create growth and scale, install and optimize
+Agile, measure and employ data science, and motivate and grow teams
+.HLINE
+.SH 3
+Skills
+.pdfhref O 3 "Skills"
+.pdfhref M "skills"
+\[bu] .RS 3
+.IP "Software"
+Lead teams to deliver reliable, predictable, and innovative software
+with transparent agile practices based upon team and organizational
+needs.
+.RS
+.RE
+.RE
+\[bu] .RS 3
+.IP "Business"
+Analyze operations, identify problems and risks, and wrangle data.
+.RS
+.RE
+.RE
+\[bu] .RS 3
+.IP "Executive"
+Strategic planning, leadership devepment, and challenge assumptions.
+.RS
+.RE
+.RE
+.HLINE
+.SH 3
+Technical
+.pdfhref O 3 "Technical"
+.pdfhref M "technical"
+.IP " 1." 4
+Agile/Scrum/Kanban
+.IP " 2." 4
+Scalable Systems
+.IP " 3." 4
+Root Cause Analysis
+.IP " 4." 4
+Budgeting
+.IP " 5." 4
+Development Process
+.IP " 6." 4
+High-quality Software
+.IP " 7." 4
+Data Science
+.IP " 8." 4
+Buzzwords: MySQL, PostgreSQL, Kubernetes, Docker, AWS, Azure, GraphQL,
+Python, Ruby, Go
+.HLINE
+.SH 3
+Experience
+.pdfhref O 3 "Experience"
+.pdfhref M "experience"
+.LP
+Infinia ML : \f[I]VP of Engineering\f[R] - \f[B]2017-present\f[R]
+.IP \[bu] 3
+Created a new engineering team and grew to 8 members (in addition to
+adding a CISO).
+.IP \[bu] 3
+Led development of Software Guidelines and forged relationships between
+Data Science and Engineering teams along with training programs
+involving Engineers as both teacher and student.
+.IP \[bu] 3
+Vastly improved quality of software deliverables to clients on 20
+successful projects include reproducible builds, automated testing,
+APIs, logging, and metrics.
+.IP \[bu] 3
+Led development of software libraries to enable each phase of our
+projects with clients including Data Analysis, Development, and
+Deployment of Machine Learning Models
+.LP
+3 Birds Marketing : \f[I]CTO\f[R] - \f[B]2015-2016\f[R]
+.IP \[bu] 3
+Transitioned leadership team from startup to more mature executive team.
+Shifted culture on Engineering team from many scattered projects to a
+focused roadmap.
+Implemented a decision framework to help evaluate product opportunities
+and architecture decisions.
+.IP \[bu] 3
+Helped to implement EOS Traction process and create a culture of
+accountability
+.LP
+ReverbNation : \f[I]VP, Engineering\f[R] - \f[B]2014-2015\f[R]
+.IP \[bu] 3
+Orchestrated release of music curation system, ad-platform, music
+discovery system (mobile and web)
+.IP \[bu] 3
+Integrated QA into the development process and test automation to
+replace manual regression test
+.IP \[bu] 3
+Developed Data Science team to oversee churn analysis, acquisition
+funnels, music similarity analysis, and curation/quality correlations
+.LP
+ReverbNation : \f[I]Sr.\~Development Director/Data Scientist\f[R] -
+\f[B]2012-2014\f[R]
+.IP \[bu] 3
+Created and grew Data Science team
+.IP \[bu] 3
+Created attribution processes to identify sources of customer leads and
+their likelihood of purchase
+.IP \[bu] 3
+Partnered with architect for integration of Spark, Hadoop, and BigQuery
+into data pipelines
+.IP \[bu] 3
+Created and deployed data warehouse and many curated data sources used
+by Data Science team, Developers, and Business Owners from products
+including Signups, Subscriptions, and Ad Serving
+.IP \[bu] 3
+Integrated Data Science into planning and forecast process
+.IP \[bu] 3
+Spearheaded major Rails upgrade including backports of security fixes
+.IP \[bu] 3
+Created split test framework and process for conducting and managing
+experiments
+.IP \[bu] 3
+Extended billing and subscription management system with new payment
+processors, better revenue recognition, and analytics
+.IP \[bu] 3
+Team-appointed UTF-8 wrangler
+.IP \[bu] 3
+Worked with Ruby, Rails, Redis, Memcache, MySQL, MogileFS, Python,
+Pandas, Pig, NumPy, scikit-learn, and lots of great people.
+.LP
+iContact : \f[I]Chief Architect\f[R] - \f[B]2009-2012\f[R]
+.IP \[bu] 3
+Grew from 100 customers when I started to more than 70,000 customers,
+and acquired by Vocus for $169MM
+.IP \[bu] 3
+Paved the way for iContact’s products and underlying technology through
+research, education, engineering, and tinkering.
+.IP \[bu] 3
+Improved mail sending infrastructure and architecture for growing mail
+volume and graceful degradation during spikes.
+.IP \[bu] 3
+Performed root cause analysis of performance issues including hotspots
+in database, backend processing, message queueing, caching, and
+reporting.
+.IP \[bu] 3
+Produced designs and implementation plans and collaborating with
+engineers to bring designs into fruition.
+.IP \[bu] 3
+Lead technologists and executives to strive for high-quality,
+well-designed, and scalable software.
+.IP \[bu] 3
+Relevant technologies: Linux, PHP, MySQL, BeanstalkD (message queue),
+Apache, Memcache, Puppet, Ruby, MongoDB, and KVM
+.LP
+iContact : \f[I]CTO\f[R] - \f[B]2004-2009\f[R]
+.IP \[bu] 3
+I managed and led a team of 55 people including Product Management, User
+Experience, Engineering, and Infrastructure through a team of managers
+to ensure the software grows to meet customer needs, maintaining
+security, and scalability.
+.IP \[bu] 3
+We do all our development using open-source technologies including: PHP
+and MySQL.
+We make great use of the Scrum development methodology to deliver
+consistently high-quality and on-time releases.

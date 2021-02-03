@@ -1,0 +1,1040 @@
+\documentclass[margin,line]{res}
+
+\usepackage{url}
+\usepackage{hyperref}
+
+
+%\usepackage{marvosym}
+%\usepackage{url,parskip}            %formatting
+%
+%%Graphics - Colors
+%\RequirePackage{color,graphicx}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%%better formatting of the A4 page
+%\usepackage[big]{layaureo}
+%%An alternative to Layaureo can be usepackage{fullpage}
+%
+%\usepackage{supertabular}       %for Grades
+%\usepackage{titlesec}           %custom section
+%
+%%Setup hyperref package, and colours for links
+%\usepackage{hyperref}
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+%\hypersetup{colorlinks,breaklinks, urlcolor=linkcolour,
+%linkcolor=linkcolour}
+
+%\usepackage{hyperref}
+
+%\hypersetup{
+    %bookmarks=true,         % show bookmarks bar?
+    %unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    %pdftoolbar=true,        % show Acrobat’s toolbar?
+    %pdfmenubar=true,        % show Acrobat’s menu?
+    %pdffitwindow=false,     % window fit to page when opened
+    %pdfstartview={FitH},    % fits the width of the page to the window
+    %pdftitle={My title},    % title
+    %pdfauthor={Author},     % author
+    %pdfsubject={Subject},   % subject of the document
+    %pdfcreator={Creator},   % creator of the document
+    %pdfproducer={Producer}, % producer of the document
+    %pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    %pdfnewwindow=true,      % links in new window
+    %colorlinks=false,       % false: boxed links; true: colored links
+    %linkcolor=red,          % color of internal links
+    %citecolor=green,        % color of links to bibliography
+    %filecolor=magenta,      % color of file links
+    %urlcolor=cyan           % color of external links
+%}
+
+\oddsidemargin -.5in \evensidemargin -.5in \textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Jun Liu \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{3.7in}p{3in}}
+{Email:}  JunLiu.NT@Gmail.com  & 506 Gallberry Dr, Cary, NC 27519 \\
+{Homepage:} {\small \url{https://sites.google.com/site/junliupage/}}    &  {Phone:}  1-609-216-0395 (cell) \\
+\end{tabular}
+%\begin{tabular}{@{}p{5in}}
+%{Email:}  JunLiu.NT@Gmail.com \\
+%{Personal page:}  \url{http://parnec.nuaa.edu.cn/jliu/} \\
+%\end{tabular}
+
+
+
+%\vspace{0.05in}
+
+\section{\sc Research Interests}
+
+$\bullet$ Sparse Learning
+
+\vspace{-0.05in}
+
+I am the principal developer for the SLEP (Sparse Learning with
+Efficient Projections) package, which provides efficient solvers for
+quite a few sparse learning models including Lasso, group Lasso,
+fused Lasso, tree structured group Lasso, overlapping group Lasso,
+sparse inverse covariance estimation, nuclear norm regularization,
+and so on. Since its release at the end of 2009, the SLEP package has
+been cited over 500 times according to Google scholar. I have published
+over 50 papers that have received over 4,000 citations according to Google scholar. 
+
+
+
+$\bullet$ Parallel MR Imaging
+
+
+\vspace{-0.05in}
+
+
+At Siemens Corporate Research, I focused on Parallel MR (Magnetic Resonance) reconstruction
+using the compressed sensing technique. My major contributions included:
+\begin{itemize}
+	\item 1. the development of a novel and robust coil profile estimation approach which plays a key role
+in the SENSE-type MR reconstruction,
+
+	\item 2. the design of an effective and powerful approach for reconstruction of dynamic MR images
+by sampling less than $\frac{1}{6}$ of k-space data, enabling the acquisition of high spatial/temporal resolution real time MR images,
+
+	\item 3. building a portfolio of algorithms for parallel MR reconstruction with non-smooth regulariza-
+tion; and
+
+	\item 4. inventing a novel MR reconstruction approach for the restricted Field-Of-View scenario.
+
+\end{itemize}
+
+My work has been implemented into the Siemens Image Calculation Environment (ICE) environment
+and demonstrated at the Siemens MR scanner, and was demonstrated at the Siemens Healthcare
+IDEA Meeting at the ISMRM 2012, Melbourne, Victoria, Australia.
+Some highlights of this work:
+\begin{itemize}
+	\item 1. A Siemens CT RTC ICV Award (In recognition of excellence in the category: Outstanding
+innovation jointly achieved with a lead customer) was given to this work.
+	\item 2. We won the second place for the Recon Challenge on 2D free-breathing Cardiac Cine at Recon
+challenge 2013 \url{http://www.ismrm.org/workshops/Data13/challenge.htm}.
+	\item 3. The MR reconstruction approach used in the news \url{http://www.brisbanetimes.com.au/
+queensland/cadel-pedals-for-heart-disease-20131111-2xblx.html} was my work.
+	\item 4. Siemens is the first company to release the compressed sensing MRI acceleration, and FDA
+has cleared this revolutionary Compressed Sensing technology, see \url{https://usa.healthcare.
+siemens.com/press/pressreleases/healthcare-news-2017-02-21-1}.
+	\item 5. I have been nine granted patents on this work as of 2018.
+\end{itemize}
+
+
+$\bullet$ Feature Extraction
+
+\vspace{-0.05in}
+
+I have conducted quite a few research on the feature extraction
+approaches such as Principal Component Analysis (PCA) and Linear
+Discriminant Analysis (LDA). By studying and analyzing quite a few
+variants for PCA and LDA, I have revealed the relationships among
+these approaches and developed efficient alternatives. In addition,
+I have studied the two-dimensional PCA and come up with new
+approaches for feature extraction.
+
+\newpage
+
+$\bullet$ Face Recognition
+
+
+\vspace{-0.05in}
+
+I have developed approaches for face recognition under different
+facial variation such as expression, illumination and
+occlusion. In particular, I have designed several algorithms
+specialized for recognition from single image per person. I have
+also developed an algorithm for face liveness detection, trying to
+avoid spoofing the face recognition system with photograph or video.
+
+
+%$\bullet$ Multi-task Learning
+%
+%
+%\vspace{-0.05in}
+%
+%I have developed multi-task learning algorithms for performing joint
+%feature selection across a group of related tasks. The aim is to
+%make use of the shared information among related tasks for improved
+%performance.
+
+
+$\bullet$ Model Selection, Big Data, and Streaming Analytics
+
+
+\vspace{-0.05in}
+
+At SAS Institute Inc., I focused on developing efficient and easy-to-use
+model selection approaches such as forward selection, backward selection,
+Lasso selection, elastic net and group Lasso in PROC GLMSELECT.
+In terms of efficiency, I have developed the Sasvi technique which
+performs safe screening with variational inequalities. I have also developed
+efficient algorithms for Principal Component Analysis (PCA) in the distributed setting for big data.
+
+%$\bullet$ Alzheimer's Disease
+%
+%
+%\vspace{-0.05in}
+%
+%Alzheimer¡¯s disease (AD) is a fatal, neurodegenerative disorder
+%characterized by progressive impairment of memory and other
+%cognitive functions. I have studied the estimation of brain
+%connectivity using sparse inverse covariance estimation. I have also
+%studied modeling/predicting disease progression.
+
+%\newpage
+
+\section{\sc Education}
+{Nanjing University of Aeronautics and Astronautics} \hfill Nanjing, P. R. China\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Ph.D., Computer Science \hfill 2002.9-2007.11
+
+\begin{list2}
+\vspace*{.05in}
+\item Dissertation Topic:  ``Research on Subspace Representation of Face Images''
+\item Advisor:  Prof. Songcan Chen
+\end{list2}
+\vspace*{.05in}
+%\item[] Note: direct pursuit for Ph.D. nominated from the M.S. candidates,
+%September,
+%2002
+\end{list1}
+
+{Nantong University} \hfill Nantong, P. R. China\\
+%{\em Department of Mathematics and Statistics}
+\vspace*{-.1in}
+\begin{list1}
+\item[] Bachelor, Computer Science \hfill 1998.9-2002.7
+\end{list1}
+
+
+\vspace{0.05in}
+
+\section{\sc Professional Appointments}
+
+
+%\vspace{-.1cm}
+%{\em Teaching Assistant} \hfill {\bf April, 2006  - November, 2007}\\
+%Duties at various times have included instructing undergraduates
+%composing thesis, and leading weekly seminar discussions.
+
+
+\vspace{-.1cm}
+{\em Lecture} \hfill 2007.11-2009.06\\
+The Computer Science Department, \\ Nanjing University of Aeronautics
+and Astronautics
+
+\vspace{-.1cm}
+{\em Associate Professor} \hfill 2009.06-2010.05\\
+The Computer Science Department,\\ Nanjing University of Aeronautics
+and Astronautics
+
+\vspace{-.1cm}
+{\em Postodc} \hfill 2008.02-2010.11\\
+The Biodesign Institute and the Computer Science and Engineering Department,\\
+Arizona State University
+
+
+\vspace{-.1cm}
+{\em Research Scientist} \hfill 2010.12-2011.02\\
+The Biodesign Institute and the Computer Science and Engineering Department,\\
+Arizona State University
+
+\vspace{-.1cm}
+{\em Research Scientist} \hfill 2011.02-2012.12\\
+Siemens Corporate Research
+
+\vspace{-.1cm}
+{\em Research Statistician Developer} \hfill 2013.01-2014.03\\
+SAS Institute Inc.
+
+\newpage
+
+\vspace{-.1cm}
+{\em Senior Research Statistician Developer} \hfill 2014.04-2017.03\\
+SAS Institute Inc.
+
+\vspace{-.1cm}
+{\em Principal Research Statistician Developer} \hfill 2017.03-2017.07\\
+SAS Institute Inc.
+
+
+\vspace{-.1cm}
+{\em Principal Data Scientist} \hfill 2017.09-present\\
+Infinia ML Inc.
+
+%\vspace{0.05in}
+
+%\section{\sc NSFC Award}
+%
+%Large-scale sparse learning and its applications \hfill 2009\\
+%Principal Investigator\\ National Science Foundation of China
+
+\section{\sc Honors and Awards}
+
+%National College English Contest (First Price) \hfill 2000
+
+\vspace*{-.1cm} China Aviation Supplies Import \& Export Group
+Corporation (CASC) Prize \hfill 2006
+
+\vspace*{-.1cm} The 13th International Conference on Neural
+Information Processing (ICONIP) Travel Award \hfill 2006
+
+\vspace*{-.1cm} The 21st International Joint Conference on
+Artificial Intelligence (IJCAI) Travel Award \hfill 2009
+
+\vspace*{-.1cm} The 23rd Annual Conference on Neural Information
+Processing Systems (NIPS) Travel Award \hfill 2009
+
+\vspace*{-.1cm} The 25th Conference on Uncertainty in Artificial
+Intelligence (UAI) Travel Award \hfill 2009
+
+%\vspace*{-.1cm} The 26th International Conference on Machine
+%Learning (ICML) Travel Award, 2009
+
+\vspace*{-.1cm} Excellent Ph.D. Thesis of Jiansu Province, P. R.
+China \hfill 2009
+
+
+\vspace*{-.1cm} The 24th Annual Conference on Neural Information
+Processing Systems (NIPS) Travel Award \hfill 2010
+
+
+\vspace*{-.1cm}  Siemens CT RTC ICV Award (In recognition of excellence in the category: \\ Outstanding innovation jointly achieved with a lead customer) \\ for MR Sparse Reconstruction
+\hfill  2012
+
+\vspace*{-.1cm}  2nd place for the Recon Challenge on 2D free-breathing Cardiac Cine \\
+(Recon challenge page: \url{http://www.ismrm.org/workshops/Data13/challenge.htm}) \hfill 2013
+
+%\section{\sc Research { } Project}
+%
+%%60905035:
+%
+%Large-scale sparse learning and its applications \hfill 2010-2012\\
+%Principal Investigator\\ National Science Foundation of China
+%
+%%61035003:
+%
+%Cloud computing-based massive data mining \hfill 2011-2014\\
+%Co-Principal Investigator\\ National Science Foundation of China
+%
+%
+%%60773061:
+%
+%Classifier localized regular Design Technology \hfill 2008-2010\\
+%Co-Principal Investigator\\ National Science Foundation of China
+%
+%%60773060:
+%
+%Machine learning based single sample face
+%recognition in real environment  \hfill 2008-2010\\
+%Co-Principal Investigator\\ National Science Foundation of China
+%
+%
+%%6050500:
+%
+%Semi-supervised learning and its applications \hfill 2006-2008\\
+%Co-Principal Investigator\\ National Science Foundation of China
+%
+%
+%%60473035:
+%
+%Enhanced classification and linear discriminant analysis to promote research \hfill 2005-2007\\
+%Co-Principal Investigator\\ National Science Foundation of China
+
+
+
+%\vspace{0.1in}
+
+
+\section{\sc Granted Patents}
+
+[11] \underline{J. Liu}, R. Zhang, Y. Xu, J. Griffin. ``Enhanced power method on an electronic device," US Patent 9,684,538.
+
+[10] \underline{J. Liu}, J. Rapin, A. Lefebvre, M. Nadar, T. Chang.
+``Efficient redundant haar minimization for parallel {MRI} reconstruction," US Patent 9,632,156.
+
+[9] \underline{J. Liu}, Q. Wang, M. Nadar, M. Zenge, and E. Mueller ``Dynamic Image Reconstruction with 
+Tight Frame Learning," US Patent 9,453,895.
+
+[8] A. Lefebvre, \underline{J. Liu}, E. Mueller, M. S Nadar, M. Schmidt, M. Zenge, and Q. Wang ``MRI recon-
+struction with incoherent sampling and redundant haar wavelets," US Patent 9,396,562.
+
+[7] M. S Nadar, S. Martin, A. Lefebvre, and \underline{J. Liu}. ``Multi-GPU FISTA Implementation for MR
+Reconstruction with Non-Uniform K-Space Sampling," US Patent 9,466,102.
+
+[6] N. Chesneau, N. Janardhanan, \underline{J. Liu}, M. S Nadar, Q. Wang, and Z. Yang. ``MRI reconstruction
+with motion-dependent regularization," US Patent 9,482,732.
+
+[5] Z. Zhao, \underline{J. Liu}, and J. Cox. ``Acceleration Of Sparse Support Vector Machine Training Through
+Safe Feature Screening," US Patent 9,495,647.
+
+[4] A. Lefebvre, A. Loewe, M. S Nadar, and \underline{J. Liu}. ``Zero communication block partitioning," US
+Patent 9,286,648.
+
+[3] \underline{J. Liu}, Z. Yang, M. S Nadar, N. Janardhanan, M. Zenge, E. Mueller, Q. Wang, and A. Loewe
+``Multi-stage magnetic resonance reconstruction for parallel imaging applications,"? US Patent 9,097,780.
+
+[2] \underline{J. Liu}, A. Lefebvre, and M. Nadar. ``Alternating direction of multipliers method for parallel MRI
+reconstruction," US Patent 8,879,811.
+
+[1] \underline{J. Liu}, J. Rapin, A. Lefebvre, M. Nadar, T. Chang, M. Zenge, E. Muller. ``Image reconstruction
+using redundant haar wavelets," US Patent 8,948,480.
+
+
+
+\section{\sc Nonprovisional Patent Applications}
+
+[2] \underline{J. Liu}, and Z. Zhao.
+``Linear Regression Using Safe Screening Techniques," US Patent App. 14/571,224.
+
+[1] \underline{J. Liu}, H. Xue, M. D. Nickel, T. Chang, M. Nadar, A. Lefebvre, E. Mueller, Q. Wang, Z. Yang, N. Janardhanan, and M. Zenge.
+``Eigen-vector approach for coil sensitivity maps estimation," US Patent App. 13/779,999.
+
+
+
+\vspace{0.3in}
+
+\section{\sc Publications}
+
+{\em Peer-Reviewed Conference Papers (reverse chronological order)}
+
+[36]  \underline{J. Liu}, Z. Zhao, R. Zhang, and Y. Xu. ``Successive Ray Refinement and Its Application to
+Coordinate Descent for Lasso," Intelligent Data Engineering and Automated Learning (IDEAL)
+2016.
+
+[35] T. Yang,  \underline{J. Liu}, P. Gong, R. Zhang, X. Shen, and J. Ye. ``Absolute Fused Lasso and Its Appli-
+cation to Genome-Wide Association Studies," ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2016
+
+[34] J. Wang, J. Zhou, \underline{J. Liu}, P. Wonka, and J. Ye. 
+``A Safe Screening Rule for Sparse Logistic Regression," 
+\emph{Advances in Neural Information Processing Systems} (NIPS) 2014.
+
+[33] \underline{J. Liu}, Z. Zhao, J. Wang, and J. Ye. 
+``Safe Screening With Variational Inequalities and Its Applicaiton to LASSO," 
+\emph{International Conference on Machine Learning} (ICML) 2014.
+
+[32] Z. Zhao, \underline{J. Liu}, and J. Cox. 
+``Safe and Efficient Screening For Sparse Support Vector Machine,"
+\emph{ACM SIGKDD Conference on Knowledge Discovery and Data Mining} (SIGKDD) 2014.
+
+[31] Z. Zhao, \underline{J. Liu}, and J. Cox. 
+``Accelerating Model Selection with Safe Screening for L1-Regularized L2-SVM,"
+\emph{European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases} (ECML/PKDD) 2014.
+
+[30] Q. Wang, \underline{J. Liu}, N. Janardhanan, M. Zenge, E. Mueller, and M. Nadar.
+``Tight Frame Learning For Cardiovascular MRI," 
+\emph{International Symposium on Biomedical Imaging} (ISBI) 2013.
+
+
+[29] D. Zhang, \underline{J. Liu}, and D. Shen.
+``Temporally-Constrained Group Sparse Learning for Longitudinal Data
+Analysis," \emph{International Conference on Medical Image Computing
+and Computer Assisted Intervention} (MICCAI) 2012.
+
+[28] Y. Hu, D. Zhang, \underline{J. Liu}, J. Ye, and X. He.
+``Accelerated Singular Value Thresholding for Matrix Completion,"
+\emph{ACM SIGKDD Conference on Knowledge Discovery and Data Mining}
+(SIGKDD) 2012.
+
+[27] S. Ji, W. Zhang, and \underline{J. Liu}. ``A Sparsity-Inducing
+Formulation for Evolutionary Co-Clustering," \emph{ACM SIGKDD
+Conference on Knowledge Discovery and Data Mining} (SIGKDD) 2012.
+
+
+[26] J. Zhou, \underline{J. Liu}, V. Narayan, and J. Ye. ``Modeling
+Disease Progression via Fused Sparse Group Lasso," \emph{ACM SIGKDD
+Conference on Knowledge Discovery and Data Mining} (SIGKDD) 2012.
+
+[25] K. Zhang, L. Lan, \underline{J. Liu}, A. Rauber, and F.
+Moerchen. ``Inductive Kernel Low-rank Decomposition with Priors,"
+\emph{ International Conference on Machine Learning} (ICML) 2012.
+
+
+[24] J. Gao, M. Paul, and \underline{J. Liu}. ``The Image Matting
+Method with Regularized Matte," \emph{IEEE International Conference
+on Multimedia and Expo} (ICME) 2012.
+
+
+[23] \underline{J. Liu}, L. Sun and J. Ye. ``Projection onto A
+Nonnegative Max-Heap," \emph{Advances in Neural Information
+Processing Systems} (NIPS) 2011.
+
+[22] L. Yuan, \underline{J. Liu} and J. Ye. Efficient Methods for
+Overlapping Group Lasso, \emph{Advances in Neural Information
+Processing Systems} (NIPS) 2011.
+
+[21] J. Zhou, L. Yuan, \underline{J. Liu} and J. Ye. ``A Multi-Task
+Learning Formulation for Predicting Disease Progression," \emph{ACM
+SIGKDD Conference on Knowledge Discovery and Data Mining} (KDD)
+2011.
+
+[20] \underline{J. Liu} and J. Ye. ``Moreau-Yosida Regularization
+for Grouped Tree Structure Learning," \emph{Advances in Neural
+Information Processing Systems} (NIPS) 2010.
+
+[19] \underline{J. Liu}, L. Yuan, and J. Ye. ``An Efficient
+Algorithm for a Class of Fused Lasso Problems," \emph{ACM SIGKDD
+Conference on Knowledge Discovery and Data Mining} (KDD) 2010.
+
+[18] H. Liu, J. Zhang, X. Jiang, and \underline{J. Liu}. ``The Group
+Dantzig Selector," \emph{International Conference on Artificial
+Intelligence and Statistics} (AI \& Statistics) 2010.
+
+[17] X. Tan, Y. Li, \underline{J. Liu}, and L. Jiang. ``Face
+Liveness Detection from A Single Image with Sparse Low Rank Bilinear
+Discriminative Model," \emph{European Conference on Computer Vision}
+(ECCV) 2010.
+
+[16] \underline{J. Liu}, S. Ji, and J. Ye. ``Multi-Task Feature
+Learning Via Efficient $\ell_{2,1}$-Norm Minimization,"
+\emph{Uncertainty in Artificial Intelligence} (UAI) 2009.
+
+[15] \underline{J. Liu}, J. Chen, and J. Ye. ``Large-Scale Sparse
+Logistic Regression," \emph{ACM SIGKDD Conference on Knowledge
+Discovery and Data Mining} (KDD) 2009.
+
+[14] \underline{J. Liu} and J. Ye. ``Efficient Euclidean Projections
+in Linear Time," \emph{International Conference on Machine Learning}
+(ICML) 2009.
+
+[13] \underline{J. Liu}, J. Chen, S. C. Chen, and J. Ye. ``Learning
+the Optimal Neighborhood Kernel for Classification,"
+\emph{International Joint Conference on Artificial Intelligence}
+(IJCAI) 2009.
+
+[12] J. Chen, L. Tan, \underline{J. Liu}, and J. Ye. ``A Convex
+Formulation for Learning Shared Structures from Multiple Tasks,"
+\emph{International Conference on Machine Learning} (ICML) 2009.
+
+[11] L. Sun, \underline{J. Liu}, J. Chen, and J. Ye. ``Efficient
+Recovery of Jointly Sparse Vectors," \emph{ Annual Conference on
+Neural Information Processing Systems} (NIPS) 2009.
+
+[10] S. Huang, J. Li, L. Sun, \underline{J. Liu}, T. Wu, K. Chen, A.
+Fleisher, E. Reiman, and J. Ye. ``Learning Brain Connectivity of
+Alzheimer's Disease from Neuroimaging Data," \emph{Conference on
+Neural Information Processing Systems} (NIPS) 2009.
+
+[9] L. Sun, R. Patel, \underline{J. Liu}, K. Chen, T. Wu, J. Li, E.
+Reiman, and J. Ye. ``Mining Brain Region Connectivity for
+Alzheimer's Disease Study via Sparse Inverse Covariance Estimation,"
+\emph{ACM SIGKDD Conference on Knowledge Discovery and Data Mining}
+(KDD) 2009.
+
+[8] X. Tan, L. Qiao,  W. Gao, and \underline{J. Liu}. ``Robust faces
+manifold modeling: Most expressive Vs. most Sparse criterion,"
+\emph{Subspace Workshop (in conjunction with ICCV)} 2009.
+
+[7] \underline{J. Liu}, S. C. Chen, Z. H. Zhou, and X. Tan. ``Single
+Image Subspace for Face Recognition," {\em IEEE International
+Workshop on Analysis and Modeling of Faces and Gestures} (AMFG, In
+conjunction with ICCV) 2007.
+
+[6] X. Tan, S. C. Chen, Z. H. Zhou and \underline{J. Liu}.
+``Learning Non-Metric Partial Similarity Based on Maximal Margin
+Criterion," {\em IEEE Computer Society Conference on Computer Vision
+and Pattern Recognition} (CVPR) 2006.
+
+[5] X. Tan, \underline{J. Liu} and S. C. Chen. ``Recognition From a
+Single Sample Per Person With Multiple SOM Fusion," {\em
+International Symposium on Neural Networks} (ISNN) 2006.
+
+[4] \underline{J. Liu} and S. C. Chen. ``Resampling LDA/QR and
+PCA+LDA for Face Recognition," {\em Australian Joint Conference on
+Artificial Intelligence} (AJCAI) 2005.
+
+[3] X. Tan, \underline{J. Liu} and S. C. Chen. ``Weighted SOM-Face:
+Selecting Local Features for Recognition From Individual Face
+Image," {\em Intelligent Data Engineering and Automated Learning}
+(IDEAL) 2005.
+
+[2] D. Zhang, S. C. Chen and \underline{J. Liu}. ``Representing
+Image Matrices: Eigenimages Versus Eigenvectors," {\em International
+Symposium on Neural Networks} (ISNN) 2005.
+
+[1] \underline{J. Liu}, S. C. Chen and Z. H. Zhou. ``Progressive
+Principal Component Analysis," {\em International Symposium on
+Neural Networks} (ISNN) 2004.
+
+
+
+
+\vspace{0.3in}
+
+
+{\em Peer-Reviewed  Journal Papers (reverse chronological order)}
+
+[20] L. Lan, K. Zhang, H. Ge, W. Cheng, \underline{J. Liu}, A. Rauber, X.L. Li, J. Wang, H. Zha. ``Low-rank decomposition meets kernel learning: A generalized Nyström method," {\em Artificial Intelligence}, 250 (2017): 1-15.
+
+[19] B. Jie, M. Liu, \underline{J. Liu}, D. Zhang, and D. Shen. ``Temporally-Constrained Group Sparse Learning
+for Longitudinal Data Analysis in Alzheimers Disease,? {\em IEEE Transactions on Biomedical Engineering}, 2016.
+
+[18] J. Zhou, \underline{J. Liu}, V. Narayan, and J. Ye. ``Modeling disease progression via multi-task learning," 
+{\em Neuroimage}, 78 (2013): 233-248.
+
+[17] X. Liu, J. Yin, Lei Wang, L. Liu, \underline{J. Liu}, C. Hou
+and J. Zhang. ``An Adaptive Approach to Learning Optimal
+Neighborhood Kernels," {\em IEEE Transactions on Systems, Man, and
+Cybernetics, Part B}, 43, no. 1 (2013): 371-384.
+
+[16] L. Yuan, \underline{J. Liu}, and J. Ye. ``Efficient Methods for Overlapping Group Lasso," 
+{\em IEEE Transactions on Pattern Analysis and Machine Intelligence}, 35, no. 9 (2013): 2104-2116.
+
+[15] J. Chen, L. Tan, \underline{J. Liu}, and J. Ye. ``A Convex Formulation for
+Learning Shared Structures from Multiple Tasks," {\em IEEE
+Transactions on Pattern Analysis and Machine Intelligence}, 35, no. 5 (2013): 1025-1038.
+
+[14] J. Ye and \underline{J. Liu}. ``Sparse Methods for Biomedical
+Data," {\em ACM SIGKDD Explorations}, 14, no. 1 (2012): 4-15.
+
+[13] J. Liu, \underline{J. Liu}, P. Wonka, and J. Ye. ``Sparse
+Non-negative Tensor Factorization Using Columnwise Coordinate
+Decent," {\em Pattern Recognition}, 45, no. 1 (2012): 649-656.
+
+[12] \underline{J. Liu}, S. C. Chen, Z. H. Zhou and X. Tan.
+``Generalized Low Rank Approximations of Matrices Revisited," {\em
+IEEE Transactions on Neural Networks}, 21, no. 4 (2010): 621-632.
+
+
+[11] Y. L. Zhu, \underline{J. Liu}, S. C. Chen. ``Semi-Random
+Subspace Method for Face Recognition," {\em Image \& Vision
+Computing}, 27, no. 9 (2009): 1358-1370.
+
+[10] X. Tan, S. C. Chen, Z. H. Zhou, and \underline{J. Liu}. ``Face
+Recognition under Occlusions and Variant Expressions with Partial
+Similarity," {\em IEEE Transactions on Information Forensics \&
+Security}, 4, no.~2 (2009): 217-230.
+
+
+[9] \underline{J. Liu}, S. C. Chen and X. Tan. ``Fractional order
+Singular Value Decomposition Representation for Face Recognition,"
+{\em Pattern Recognition} 41, no. 1 (2008): 378-395.
+
+[8] \underline{J. Liu}, S. C. Chen and X. Tan. ``A Study on Three
+Linear Discriminant Analysis Based Methods in Small Sample Size
+Problem," {\em Pattern Recognition}, 41, no. 1 (2008): 102-116.
+
+
+[7] Z. Wang, S. C. Chen, \underline{J. Liu}, and D. Zhang. ``Pattern
+Representation in Feature Extraction and Classification- Matrix
+Versus Vector," {\em IEEE Transactions on Neural Networks}, 19, no.
+5, (2008): 758-769.
+
+
+[6] \underline{J. Liu}, S. C. Chen, X. Tan and D. Zhang. ``Comments
+on ``Efficient and Robust Feature Extraction by Maximum Margin
+Criterion''," {\em IEEE Transactions on Neural Networks}, 18, no. 6
+(2007): 1862-1864.
+
+[5] \underline{J. Liu}, S. C. Chen, X. Tan and D. Zhang. ``Efficient
+Pseudo-Inverse Linear Discriminant Analysis and Its Nonlinear Form
+for Face Recognition." {\em International Journal of Pattern
+Recognition and Artificial Intelligence}, 21, no. 8 (2007):
+1265-1278.
+
+
+[4] \underline{J. Liu} and S. C. Chen.  ``Discriminant Common
+Vectors versus Neighbourhood Components Analysis and Laplacianfaces:
+A Comparative Study in Small Sample Size Problem," {\em Image and
+Vision Computing} 24, no. 3 (2006): 249-262.
+
+[3] \underline{J. Liu} and S. C. Chen. ``Non-Iterative Generalized
+Low Rank Approximation of Matrices," {\em Pattern Recognition
+Letters} 27, no. 9 (2006): 1002-1008.
+
+
+[2] X. Tan, \underline{J. Liu} and S. C. Chen. ``Sub-Intrapersonal
+Space Analysis for Face Recognition," {\em Neurocomputing} 69, no.
+13-15 (2006): 1796-801.
+
+
+[1] S. C. Chen, \underline{J. Liu} and Z. H. Zhou. ``Making FLDA
+Applicable to Face Recognition With One Sample Per Person," {\em
+Pattern Recognition} 37, no. 7 (2004): 1553-1555.
+
+
+
+\vspace{0.3in}
+
+
+{\em Conference Abstracts (reverse chronological order)}
+
+
+
+[9] M. Zenge, A. Lefebvre, C. Forman, R. Grimm, J. Hutter, \underline{J. Liu}, N. Janardhanan, and M. Nadar.
+``IRecon â€“ Introducing a Standardized Interface into the Siemens Image Reconstruction Environment,"
+\emph{ISMRM Data Sampling \& Image Reconstruction Workshop in Sedona}, 2013.
+ 
+
+[8] \underline{J. Liu}, A. Lefebvre, M. S. Nadar, M. Zenge, M. Schmidt, and E. Mueller.
+``2D bSSFP Real-time Cardiac CINE-MRI: Compressed Sensing Featuring Weighted RedundantHaar Wavelet Regularization in Space and Time,"
+\emph{SCMR 2013 SCIENTIFIC SESSIONS}. 2013.
+
+[7] M. Schmidt, E. Mueller, M. Zenge, \underline{J. Liu}, A. Lefebvre, M. S. Nadar, and O. Ekinci.
+``Novel Highly Accelerated Real-Time CINE-MRI featuring Compressed Sensing with k-t Regularization in Comparison to TSENSE Segmented and Real-Time Cine Imaging,"
+\emph{SCMR 2013 SCIENTIFIC SESSIONS}. 2013. 
+
+[6] \underline{J. Liu}, A. Loewe, M. Zenge, A. Lefebvre, E. Mueller, and M. S. Nadar.
+``Elora: Enforcing Low Rank for Parallel MR Reconstruction,"
+\emph{ISMRM} 2013. 
+
+[5] Q. Wang, \underline{J. Liu}, M. Zenge, N. Janardhanan, E. Mueller, and M. S. Nadar.
+``An Eigen-Vector Approach for Coil Sensitivity Estimation in the 3D Scenario,"
+\emph{ISMRM} 2013. 
+
+[4] Q. Wang, \underline{J. Liu}, N. Janardhanan,  and M. S. Nadar.
+``Cardiovascular MRI Reconstruction with Data-Driven Sparsifying Transform," 
+\emph{ISMRM} 2013.
+
+[3] Q. Wang, \underline{J. Liu}, Z. Yang, N. Chesneau, M. Zenge, M. Schmidt, N. Janardhanan, E. Mueller, and M. S. Nadar.
+``Motion-Dependent L1 Minimization for Dynamic Cardiac MRI Reconstruction," \emph{ISMRM} 2013.
+
+[2] \underline{J. Liu}, J. Rapin, T. Chang,  A. Lefebvre, M. Zenge,
+E. Mueller, and M. S. Nadar. Dynamic cardiac MRI reconstruction with
+weighted redundant Haar wavelets. \emph{ISMRM} 2012.
+
+[1] \underline{J. Liu}, J. Rapin, T. Chang, P. Schmitt, X. Bi, A.
+Lefebvre, M. Zenge, E. Mueller, and M. S. Nadar. ``Regularized
+reconstruction using redundant Haar wavelets: A means to achieve
+high under-sampling factors in non-contrast-enhanced 4D MRA," \emph{ISMRM} 2012.
+
+
+
+%\newpage
+
+%\vspace{+.2cm}
+%{\em Preprint}
+%
+%[1] \underline{J. Liu} and J. Ye. ``Efficient $\ell_1$/$\ell_q$-norm
+%Regularization," \emph{arXiv:1009.4766v1}, 2010.
+%
+%[2] \underline{J. Liu} and J. Ye. ``Fast Overlapping Group Lasso,"
+%\emph{arXiv:1009.0306v1}, 2010.
+
+
+
+
+\section{\sc Professional Activities}
+
+
+{\em Tutorial}
+
+\begin{list2}
+\item J. Liu, S. Ji, and J. Ye. ``Mining Sparse Representations: Formulations, Algorithms, and Applications." SIAM Conference on Data Mining (SDM), Columbus, Ohi, USA,
+2010.
+\end{list2}
+
+
+\vspace{-.15cm}
+
+{\em Journal Reviewers}
+
+\begin{list2}
+
+\vspace{+.1cm}
+\item
+Computational Statistics and Data Analysis
+
+\vspace{+.1cm}
+\item
+Frontiers of Computer Science in China
+
+\vspace{+.1cm}
+\item
+IEEE Transactions on Image Processing
+
+\vspace{+.1cm}
+\item
+IEEE Transactions on Circuits and Systems for Video Technology
+
+\vspace{+.1cm}
+\item
+IEEE Transactions on Knowledge and Data Engineering
+
+\vspace{+.1cm}
+\item
+IEEE Transactions on Neural Networks
+
+\vspace{+.1cm}
+\item
+IEEE Transactions on Pattern Analysis and Machine Intelligence
+
+\vspace{+.1cm}
+\item
+IEEE Transactions on Systems, Man, and Cybernetics, Part B
+
+\vspace{+.1cm}
+\item
+Image and Vision Computing
+
+\vspace{+.1cm}
+\item
+Information Science
+
+\vspace{+.1cm}
+\item
+International Journal of Machine Learning Research
+
+\vspace{+.1cm}
+\item
+International Journal of Pattern Recognition and Artificial
+Intelligence
+
+\vspace{+.1cm}
+\item
+International Journal of Software and Informatics
+
+\vspace{+.1cm}
+\item
+Journal of Software and Informatics
+
+\vspace{+.1cm}
+\item
+Journal of Computer Science and Technology
+
+\vspace{+.1cm}
+\item
+Neurocomputing
+
+\vspace{+.1cm}
+\item
+Pattern Analysis \& Applications
+
+\vspace{+.1cm}
+\item
+Pattern Recognition Letters
+
+\vspace{+.1cm}
+\item
+SCIENCE CHINA Information Sciences
+
+
+\vspace{+.1cm}
+\item
+Signal Processing
+
+
+\end{list2}
+
+
+\vspace{+.2cm}
+
+{\em Conference Reviewers or Program Committee Members}
+
+\begin{list2}
+
+
+\vspace{+.1cm}
+\item
+Advances in Neural Information Processing Systems
+
+
+\vspace{+.1cm}
+\item
+ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+
+
+\vspace{+.1cm}
+\item
+International Conference on Machine Learning
+
+
+\vspace{+.1cm}
+\item
+SIAM International Conference on Data Mining
+
+\vspace{+.1cm}
+\item
+International Conference on Data Mining
+
+
+
+
+
+%\vspace{+.1cm}
+%\item
+%European Conference on Machine Learning and Principles and Practice
+%of Knowledge Discovery in Databases (ECML PKDD) 2010
+
+
+
+
+\vspace{+.1cm}
+\item
+International Conference on Machine Learning and Applications
+
+%\vspace{+.1cm}
+%\item
+%International Symposium on Neural Networks 2007
+
+%\vspace{+.1cm}
+%\item ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2010
+%(External Reviewer)
+%
+%\vspace{+.1cm}
+%\item
+%European Conference on Computer Vision 2010 (External Reviewer)
+
+
+\end{list2}
+
+ 
+
+\section{\sc Main Open-Source Softwares Developed}
+
+I have developed the SLEP package, which provides functions for
+quite a few sparse learning models:
+
+\begin{list2}
+\vspace{+.1cm}
+\item $\ell_1$-norm Regularized / Constrained Optimization
+
+\vspace{+.1cm}
+\item $\ell_1/\ell_q$-norm Regularized Optimization
+
+\vspace{+.1cm}
+\item Fused Lasso
+
+\vspace{+.1cm}
+\item Tree Structured Group Lasso
+
+
+\vspace{+.1cm}
+\item Overlapping Group Lasso
+
+
+\vspace{+.1cm}
+\item Non-negative Max-heap
+
+\vspace{+.1cm}
+\item Sparse Inverse Covariance Estimation
+
+\vspace{+.1cm}
+\item Trace Norm Regularized Optimization
+
+\end{list2}
+
+
+\vspace{-.2cm} The SLEP package is available at
+\url{http://yelab.net/software/SLEP/}.
+
+
+%Currently, the SLEP package is implemented in Matlab, with the
+%associated Euclidean projections in C.
+
+
+
+
+\section{\sc Summary}
+\begin{list2}
+
+\item Skilled experience in creative research.
+
+\vspace{+.1cm} \item Solid mathematical and statistical knowledge
+foundation.
+
+\vspace{+.1cm}\item Strong programming ability. Master C, C++,
+Matlab, and SAS.
+
+\vspace{+.1cm}\item Competent communication skill.
+
+\vspace{+.1cm} \item Skilled scientific writing.
+
+\end{list2}
+
+
+%\section{\sc Referees}
+%
+%\begin{list2}
+%
+%
+%\item Jieping Ye
+%
+%Associate Professor
+%
+%Computer Science and Engineering
+%
+%School of Computing, Informatics and Decision System Engineering
+%
+%Arizona State University
+%
+%Tempe, AZ 85287-8809, U.S.A.
+%
+%
+%Email: jieping.ye@asu.edu
+%
+%Phone: 1-480-727-7451
+%
+%Webpage: \url{http://www.public.asu.edu/~jye02/}
+%
+%\vspace{+.3cm}
+%
+%\item Songcan Chen
+%
+%Professor, Director, Pattern Recognition and Neural Computing
+%Laboratory
+%
+%Department of Computer Science \& Engineering
+%
+%Nanjing University of Aeronautics and Astronautics
+%
+%Nanjing, Jiangsu 210016, P. R. China
+%
+%
+%Email: s.chen@nuaa.edu.cn
+%
+%Phone: 86-25-84896477 ext. 12221
+%
+%
+%Webpage: \url{http://parnec.nuaa.edu.cn/}
+%
+%\vspace{+.3cm}
+%
+%\item Sudhir Kumar
+%
+%Professor, Director, Center for Evolutionary Medicine and
+%Informatics
+%
+%The Biodesign Institute
+%
+%Arizona State University
+%
+%Tempe, AZ 85287-5301, U.S.A.
+%
+%
+%Email: s.kumar@asu.edu
+%
+%Phone: 1-480-727-6949
+%
+%
+%Webpage: \url{http://www.kumarlab.net/}
+%
+%\end{list2}
+
+\end{resume}
+
+
+\end{document}
