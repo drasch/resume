@@ -38,9 +38,16 @@ Seeking opportunities to: Create growth and scale, install and optimize Agile, m
 
 ------
 
-### Experience 
+### Experience
+Nika by Vertroos Health : *Chief Technology Officer and Co-founder* - __2020-present__
 
-Infinia ML : *VP of Engineering* - __2018-present__
+- Co-founded company to help understand and measure mental-health and wellness for children.
+- Went from Design to Product producing Revenue in less than a year.
+- Built customer-facing web and companion desktop application based upon a prototype including Vue JS, Typescript, Python, Django, Docker, CI/CD, and Electron.
+- Extracted Text Message and Browser history from iPhones to allow analysis with profesionals and AI.
+- Developed highly successful Apprenticeship program working with fresh-out-of-coding-school graduates to build out our product while helping them build a resume of on-the-job experience. (100% hired after completion of the program)
+
+Infinia ML : *VP of Engineering* - __2018-2020__
 
 - Created a new engineering team and grew to 8 members (in addition to adding a CISO).
 - Led development of Software Guidelines and forged relationships between Data Science and Engineering teams along with training programs involving Engineers as both teacher and student.
@@ -57,7 +64,7 @@ ReverbNation : *VP of Engineering* - __2014-2016__
 
 - Orchestrated release of music curation system, ad-platform, music discovery system (mobile and web)
 - Integrated QA into the development process and test automation to replace manual regression test
-- Developed Data Science team to oversee churn analysis, acquisition funnels, music similarity analysis, and curation/quality correlations 
+- Developed Data Science team to oversee churn analysis, acquisition funnels, music similarity analysis, and curation/quality correlations
 
 ReverbNation : *Sr. Development Director/Data Scientist* - __2012-2014__
 
@@ -70,12 +77,12 @@ ReverbNation : *Sr. Development Director/Data Scientist* - __2012-2014__
 - Created split test framework and process for conducting and managing experiments
 - Extended billing and subscription management system with new payment processors, better revenue recognition, and analytics
 - Team-appointed UTF-8 wrangler
-- Worked with Ruby, Rails, Redis, Memcache, MySQL, MogileFS, Python, Pandas, Pig, NumPy, scikit-learn, and lots of great people. 
+- Worked with Ruby, Rails, Redis, Memcache, MySQL, MogileFS, Python, Pandas, Pig, NumPy, scikit-learn, and lots of great people.
 
 iContact : *Chief Architect* - __2009-2012__
 
 - Acquired by Vocus for $169MM
-- Grew product from 100 customers to more than 70,000 
+- Grew product from 100 customers to more than 70,000
 - Paved the way for iContact's products and underlying technology through research, education, engineering, and tinkering.
 - Improved mail sending infrastructure and architecture for growing mail volume and graceful degradation during spikes.
 - Performed root cause analysis of performance issues including hotspots in database, backend processing, message queueing, caching, and reporting.
@@ -86,7 +93,8 @@ iContact : *Chief Architect* - __2009-2012__
 iContact : *CTO* - __2004-2009__
 
 - I managed and led a team of 55 people including Product Management, User Experience, Engineering, and Infrastructure through a team of managers to ensure the software grows to meet customer needs, maintaining security, and scalability.
-- We do all our development using open-source technologies including: PHP and MySQL. We make great use of the Scrum development methodology to deliver consistently high-quality and on-time releases.
+- Development using open-source technologies including: PHP and MySQL. We make great use of the Scrum development methodology to deliver consistently high-quality and on-time releases.
+
 ------
 
 ### Education
