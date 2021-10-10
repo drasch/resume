@@ -44,7 +44,7 @@ Nika by Vertroos Health : *Chief Technology Officer and Co-founder* - __2020-pre
 - Co-founded company to help understand and measure mental-health and wellness for children.
 - Went from Design to Product producing Revenue in less than a year.
 - Built customer-facing web and companion desktop application based upon a prototype including Vue JS, Typescript, Python, Django, Docker, CI/CD, and Electron.
-- Extracted Text Message and Browser history from iPhones to allow analysis with profesionals and AI.
+- Extracted Text Message and Browser history from iPhones to allow analysis with professionals and AI.
 - Developed highly successful Apprenticeship program working with fresh-out-of-coding-school graduates to build out our product while helping them build a resume of on-the-job experience. (100% hired after completion of the program)
 
 Infinia ML : *VP of Engineering* - __2018-2020__
