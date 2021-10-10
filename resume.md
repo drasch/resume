@@ -1,5 +1,5 @@
 # David Rasch
-Cary, NC - rasch@raschnet.com - 919-699.3603 - https://www.linkedin.com/in/rasch/
+Cary, NC - david@pointd.io - 919-699.3603 - https://pointd.io
 
 ## Problem Solver in Teams + Technology + Business
 
@@ -7,7 +7,7 @@ Cary, NC - rasch@raschnet.com - 919-699.3603 - https://www.linkedin.com/in/rasch
 
 ### Profile
 
-Seeking opportunities to: Create growth and scale, install and optimize Agile, measure and employ data science, and motivate and grow teams
+Seasoned strategic technology executive coaching companies to create or restore sustainable growth.
 
 ------
 
