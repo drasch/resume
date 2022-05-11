@@ -1,5 +1,5 @@
 # David Rasch
-Cary, NC - david@pointd.io - 919-699.3603 - https://pointd.io
+Cary, NC - david@raschnet.com - 919.699.3603 - https://linkedin.com/in/rasch
 
 ## Problem Solver in Teams + Technology + Business
 
@@ -7,11 +7,11 @@ Cary, NC - david@pointd.io - 919-699.3603 - https://pointd.io
 
 ### Profile
 
-Seasoned strategic technology executive coaching companies to create or restore sustainable growth.
+Seasoned strategic technology executive helping build sustainable momentum through strengths-based people-centered leadership.
 
 ------
 
-### Skills
+### Areas of Strength
 
 * Software
   : Lead teams to deliver reliable, predictable, and innovative software with transparent agile practices based upon team and organizational needs.
@@ -28,24 +28,30 @@ Seasoned strategic technology executive coaching companies to create or restore 
 
 1. Agile/Scrum/Kanban
 2. Coaching and Mentoring
-2. Scalable Systems
-3. Root Cause Analysis
-4. Budgeting
+2. Career Coaching and Developing Teams of Leaders
+2. Architecting and Analyzing Scalable Systems
+3. Software Reliability Engineering
+4. Budgeting, Forecasting, and Portfolio Planning
 5. Development Process
 6. High-quality Software
-7. Data Science
-8. Buzzwords: MySQL, PostgreSQL, Kubernetes, Docker, AWS, Azure, GraphQL, Python, Ruby, Go
+7. Data Science and Analytics
+8. Buzzwords: MySQL, PostgreSQL, Kubernetes, Docker, AWS, GraphQL, Python, Ruby, Go
 
 ------
 
 ### Experience
-Nika by Vertroos Health : *Chief Technology Officer and Co-founder* - __2020-present__
+Tatango : *Advisor and Interim CTO* - __2021-present__
 
-- Co-founded company to help understand and measure mental-health and wellness for children.
-- Went from Design to Product producing Revenue in less than a year.
+Belongly and Nika by Vertroos Health : *Chief Technology Officer and Co-founder* - __2020-2021__
+
+- Co-founded company in 2020 to help understand and measure mental-health and wellness for children.
+- Designed, Built and Launched two products into user hands
 - Built customer-facing web and companion desktop application based upon a prototype including Vue JS, Typescript, Python, Django, Docker, CI/CD, and Electron.
 - Extracted Text Message and Browser history from iPhones to allow analysis with professionals and AI.
 - Developed highly successful Apprenticeship program working with fresh-out-of-coding-school graduates to build out our product while helping them build a resume of on-the-job experience. (100% hired after completion of the program)
+- Raised $1M and pivoted company in 2021 to help build a social network for mental heatlh professionals.
+- Went from Design to to Product in active use and continued development in less than 6 months.
+- Built customr-facing web and mobile applications using React (web and Native), NextJS, Typescript, Hasura, GraphQL, CI/CD, and AWS Fargate
 
 Infinia ML : *VP of Engineering* - __2018-2020__
 
@@ -58,7 +64,6 @@ Infinia ML : *VP of Engineering* - __2018-2020__
 
 - Transitioned leadership team from startup to more mature executive team. Shifted culture on Engineering team from many scattered projects to a focused roadmap. Implemented a decision framework to help evaluate product opportunities and architecture decisions.
 - Helped to implement EOS Traction process and create a culture of accountability
-
 
 ReverbNation : *VP of Engineering* - __2014-2016__
 
