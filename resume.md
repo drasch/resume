@@ -42,8 +42,13 @@ Top Software Development Leader - 2018
 
 ### Experience
 
-Edward Jones : *Senior Solutions Architect* - __2022-present__
+Edward Jones : *Senior Solutions Architect and Director of Engineering for Wealth Planning and Onboarding* - __2022-present__
 
+- Led transformation of largest portfolio at the firm while improving engagement and enablement scores
+- Modernize and replace Wealth Planning tools used by 18,000 Financial Advisors leading to a 20% increase in user satisfaction
+- Modernize and prepare to replace Onboarding and Proposal using new low-code platform. Entering pilot on schedule and under budget.
+- Led installation of SRE practices and liasons into the teams leading to 20x increase in committed SLAs and increase in availability for monitored services
+- Decreased work in progress on teams leading to higher engagement and increases in delivery through cross training and decreased handoffs
 - Unify architecture across DBX portfolio and represent needs to shared services and Enterprise Architecture.
 
 Tatango : *Advisor and Interim CTO* - __2021-2022__
@@ -90,7 +95,7 @@ ReverbNation : *Sr. Development Director* then *VP of Engineering* - __2012-2016
 - Created and deployed data warehouse and many curated data sources used by Data Science team, Developers, and Business Owners from products including Signups, Subscriptions, and Ad Serving
 - Worked with Ruby, Rails, Redis, Memcache, MySQL, MogileFS, Python, Pandas, Pig, NumPy, scikit-learn, and lots of great people.
 
-iContact : *CTO* then *Chief Architect* - __2009-2012__
+iContact : *CTO* then *Chief Architect* - __2004-2012__
 
 - Acquired by Vocus for $169MM
 - Grew product from 100 customers to more than 70,000; grew myself from developer and sysadmin to executive
